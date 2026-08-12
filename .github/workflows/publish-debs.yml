@@ -43,6 +43,10 @@ jobs:
           cp Packages publish/Packages
           cp Packages.gz publish/Packages.gz
           if [ -f Packages.bz2 ]; then cp Packages.bz2 publish/Packages.bz2; fi
+          # Copy index.html from main branch so Pages has the site homepage
+          if [ -f index.html ]; then cp index.html publish/index.html; fi
+          # Ensure GitHub Pages doesn't process with Jekyll
+          touch publish/.nojekyll
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v4
