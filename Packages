@@ -1,25 +1,25 @@
 Author: Joe Jordan <nitrous@joedj.net>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Name: Nitrous
-Package: com.iosvidocum.nitrous
+Package: net.joedj.nitrousmenstry
 Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
 Breaks: io.pangu.xuanyuansword8 (<< 0.2)
 Section: Tweaks
-Installed-Size: 278
-Version: 2.5-5
+Installed-Size: 358
+Version: 2.5-6
 Architecture: iphoneos-arm
 Description: Give JavaScript a speed boost with Nitro
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: joejordan
-Tag: purpose::extension, role::enduser, ios7support::1, ios8support::1
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9
 Icon: file:///Library/PreferenceBundles/Nitrous.bundle/Nitrous@2x.png
-Filename: deb/com.iosvidocum.nitrous_2.5-5_iphoneos-arm.deb
-Size: 170442 
-MD5sum: 16398924a37c4643682b6ad56541a485
+Filename: deb/nitrous.deb
+Size: 123072
+MD5sum: 5ee95169c467f1bb1db9f4a0e54d070e
 
-Package: net.angelxwind.preferenceorganizer2
+Package: preferenceorga.menstry
 Name: PreferenceOrganizer 2
 Architecture: iphoneos-arm
 Description: Organises your Preferences app into several configurable categories for ease of navigation.
@@ -34,6 +34,6 @@ Replaces: org.ilendsoft.preferenceorganizer, com.eliz.preferenceorganizer7
 Icon: file:///Library/KarenRepoIcons/net.angelxwind.preferenceorganizer2.png
 Version: 4.0.8
 Installed-Size: 2016
-Filename: deb/net.angelxwind.preferenceorganizer2_4.0.8.deb
-Size: 1389558
-MD5sum: b4677faf3fe036219dd99404c15c0c33
+Filename: deb/preferenceorganizer2.deb
+Size: 1426272
+MD5sum: d2fbd46f329a7c17012b9fa7ce5bf658
