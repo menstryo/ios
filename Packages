@@ -1,0 +1,23 @@
+Package: net.joedj.nitrous
+Version: 2.5-6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 358
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
+Breaks: io.pangu.xuanyuansword8 (<< 0.2)
+Filename: deb/net.joedj.nitrous_v2.5-6.deb
+Size: 123074
+MD5sum: 765cc9688e8fb405e052ed71246c9b1f
+SHA1: 18a335f06a2b6f1de7ebef9bd176d672a2fc4f51
+SHA256: d485162c9bc18792dc9667ec9de27bc1701fe11d45252b7fe743c9f57c02fb81
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Description: Give JavaScript a speed boost with Nitro
+Tag: cydia::commercial, purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Joe Jordan <nitrous@joedj.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Dev: joejordan
+Icon: file:///Library/PreferenceBundles/Nitrous.bundle/Nitrous@2x.png
+Name: Nitrous
+Sponsor: thebigboss.org <http://thebigboss.org>
+
