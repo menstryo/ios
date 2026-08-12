@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>About - Menstry Repository</title>
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #c5cdd4;
+      background-image: -webkit-repeating-linear-gradient(
+        90deg,
+        #c1c9d0,
+        #c1c9d0 1px,
+        #c8d0d7 1px,
+        #c8d0d7 2px
+      );
+      color: #000;
+      padding-bottom: 30px;
+      -webkit-user-select: none;
+    }
+
+    /* iOS 6 Header Bar - WebKit Compatible */
+    .header {
+      height: 44px;
+      line-height: 44px;
+      text-align: center;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d67a7a), color-stop(50%,#b84343), color-stop(51%,#ab3737), color-stop(100%,#942b2b));
+      background: -webkit-linear-gradient(top, #d67a7a 0%,#b84343 50%,#ab3737 51%,#942b2b 100%);
+      border-top: 1px solid #eba4a4;
+      border-bottom: 1px solid #571616;
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+      position: relative;
+      z-index: 100;
+    }
+
+    .header-title {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+      letter-spacing: -0.3px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 10px 10px 20px 10px;
+    }
+
+    /* Section Titles */
+    .section-title {
+      font-size: 13px;
+      font-weight: bold;
+      color: #4c566c;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+      text-transform: uppercase;
+      margin: 14px 12px 6px 12px;
+      letter-spacing: 0.2px;
+    }
+
+    /* Cards */
+    .card {
+      background: #ffffff;
+      border: 1px solid #a2a8b3;
+      -webkit-border-radius: 9px;
+      border-radius: 9px;
+      -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .project-info {
+      padding: 14px 14px 12px 14px;
+    }
+
+    .project-info p {
+      font-size: 14px;
+      line-height: 1.35;
+      color: #333;
+    }
+
+    /* Add to Cydia Button */
+    .btn-cydia {
+      display: block;
+      width: 100%;
+      padding: 10px 0;
+      margin-top: 14px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d67a7a), color-stop(50%,#b84343), color-stop(51%,#ab3737), color-stop(100%,#942b2b));
+      background: -webkit-linear-gradient(top, #d67a7a 0%,#b84343 50%,#ab3737 51%,#942b2b 100%);
+      border: 1px solid #571616;
+      -webkit-border-radius: 7px;
+      border-radius: 7px;
+      color: #ffffff;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+      -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 1px 2px rgba(0, 0, 0, 0.15);
+      cursor: pointer;
+    }
+
+    .btn-cydia:active {
+      background: -webkit-linear-gradient(top, #ab3737 0%,#571616 100%);
+    }
+
+    /* Table Rows for iOS 6 WebKit */
+    .list-row {
+      display: table;
+      width: 100%;
+      padding: 8px 12px;
+      border-bottom: 1px solid #e0e0e0;
+      text-decoration: none;
+      color: #000;
+      height: 44px;
+    }
+
+    .card .list-row:last-child {
+      border-bottom: none;
+    }
+
+    .list-row-cell {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .cell-left {
+      width: 40px;
+    }
+
+    .cell-main {
+      text-align: left;
+    }
+
+    .cell-right {
+      text-align: right;
+    }
+
+    .avatar-icon {
+      width: 28px;
+      height: 28px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+      background-color: #b84343;
+      display: block;
+    }
+
+    .brand-icon {
+      width: 28px;
+      height: 28px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+      display: block;
+    }
+
+    .brand-github {
+      background-color: #f0f0f0;
+      border: 1px solid #d0d0d0;
+    }
+
+    .brand-github svg {
+      margin: 3px 0 0 3px;
+    }
+
+    .row-text {
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .row-subtitle {
+      font-size: 15px;
+      color: #8e8e93;
+      font-weight: normal;
+    }
+
+    .chevron {
+      color: #7f7f7f;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Bar -->
+  <div class="header">
+    <span class="header-title">About</span>
+  </div>
+
+  <div class="container">
+
+    <!-- Project Info Section -->
+    <div class="section-title">PROJECT INFO</div>
+    <div class="card project-info">
+      <p>Универсальный репозиторий от menstry. Все нужные твики и утилиты собраны в одном месте, чтобы заменяться десятком сторонних источников и позволять быстро переустановить рабочий сетап.</p>
+      
+      <!-- Автодобавление репозитория menstryo.github.io/ios в Cydia -->
+      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://menstryo.github.io/ios" class="btn-cydia">Add to Cydia</a>
+    </div>
+
+    <!-- Developers Section -->
+    <div class="section-title">DEVELOPERS</div>
+    <div class="card">
+      <div class="list-row">
+        <div class="list-row-cell cell-left">
+          <div class="avatar-icon"></div>
+        </div>
+        <div class="list-row-cell cell-main">
+          <span class="row-text">menstry</span>
+        </div>
+        <div class="list-row-cell cell-right">
+          <span class="row-subtitle">Main Creator</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Links & Community Section -->
+    <div class="section-title">LINKS & COMMUNITY</div>
+    <div class="card">
+      <a href="https://github.com/menstryo/ios" class="list-row" target="_blank">
+        <div class="list-row-cell cell-left">
+          <div class="brand-icon brand-github">
+            <!-- GitHub SVG Icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#000">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="list-row-cell cell-main">
+          <span class="row-text">GitHub Repository</span>
+        </div>
+        <div class="list-row-cell cell-right">
+          <span class="chevron">&#8250;</span>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
