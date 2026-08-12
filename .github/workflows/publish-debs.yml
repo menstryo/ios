@@ -29,23 +29,20 @@ jobs:
 
       - name: Generate Packages and compress
         run: |
-          # Generate Packages file with correct paths (deb/...) by running from repo root
           dpkg-scanpackages deb /dev/null > Packages
           gzip -9c Packages > Packages.gz
-          # bzip2 is optional; keep step tolerant if not available
           if command -v bzip2 >/dev/null 2>&1; then bzip2 -c Packages > Packages.bz2 || true; fi
 
       - name: Prepare publish folder
         run: |
-          rm -rf publish
           mkdir -p publish
           cp -r deb publish/deb || true
           cp Packages publish/Packages
           cp Packages.gz publish/Packages.gz
           if [ -f Packages.bz2 ]; then cp Packages.bz2 publish/Packages.bz2; fi
-          # Copy index.html from main branch so Pages has the site homepage
           if [ -f index.html ]; then cp index.html publish/index.html; fi
-          # Ensure GitHub Pages doesn't process with Jekyll
+          if [ -f Release ]; then cp Release publish/Release; fi
+          if [ -f cydiaicon.png ]; then cp cydiaicon.png publish/cydiaicon.png; fi
           touch publish/.nojekyll
 
       - name: Publish to gh-pages
@@ -53,4 +50,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./publish
-          # target_branch defaults to gh-pages; you can set target_branch: gh-pages if desired
