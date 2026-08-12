@@ -495,26 +495,6 @@ Description: Fixes Google Translate.
 Author: Preloading, SpaceSaver2000-1
 Name: Retranslate
 
-Package: dev.preloading.tubereplacer
-Version: 1.0.6+stockipa.32+tele6rampush4
-Architecture: iphoneos-arm
-Maintainer: Preloading <me@preloading.dev>
-Installed-Size: 1772
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 5.0), firmware (<< 11.0)
-Conflicts: bag.xml.tuberepair
-Filename: deb/TubeReplacer_StockIPA_AutoChannelRestart_FINAL_v35_Tele6ramSenderTitles (3).deb
-Size: 552626
-MD5sum: fd394ea3a9f4258ed8cf3ea6dfa4cb06
-SHA1: 0c438306e3d077c160302c74d1c3552d6ec7244d
-SHA256: 4cd42c1f36eb5e23fc08c92bdd1def80d90a122159181e2f7c853dcac002aa05
-Section: Tweaks
-Homepage: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Description: Original TubeReplacer v35 runtime fixes plus an iOS 6 and 7 SpringBoard display fix that replaces the repeated Tele6ram app title with the APNs sender or chat title while leaving the message body unchanged.
-Author: Preloading <me@preloading.dev>
-Depiction: https://cydia.preloading.dev/depictions/tubereplacer/1.0/
-Icon: file:///Library/PreferenceBundles/TubeReplacerPrefs.bundle/icon@full.png
-Name: TubeReplacer v35 + Tele6ram Sender Titles
-
 Package: jp.ashikase.multiiconmover
 Version: 1:1.2.0-1
 Architecture: iphoneos-arm
