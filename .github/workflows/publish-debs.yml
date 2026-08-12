@@ -42,7 +42,7 @@ jobs:
           if [ -f Packages.bz2 ]; then cp Packages.bz2 publish/Packages.bz2; fi
           if [ -f index.html ]; then cp index.html publish/index.html; fi
           if [ -f Release ]; then cp Release publish/Release; fi
-          if [ -f cydiaicon.png ]; then cp cydiaicon.png publish/cydiaicon.png; fi
+          if [ -f CydiaIcon.png ]; then cp CydiaIcon.png publish/CydiaIcon.png; fi
           touch publish/.nojekyll
 
       - name: Publish to gh-pages
