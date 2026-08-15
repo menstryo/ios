@@ -246,6 +246,21 @@ Icon: file:///Library/PreferenceBundles/KillBackgroundPreferences.bundle/Icon@2x
 Name: KillBackground
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.menstry.novaposhta
+Version: 2.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: menstryo
+Installed-Size: 120
+Filename: deb/com.menstry.novaposhta_2.0.0-1+debug_iphoneos-arm.deb
+Size: 23670
+MD5sum: ce96a960e83a6de17921ade381e2c8a1
+SHA1: abfc5d03bf3fe92d2739faa6cbbea3bfef19e174
+SHA256: 585c4cf4c35a8320605e30e4de229ec5d9bf156b7b3959409fd6d33dcbcbb316
+Section: Utilities
+Description: An awesome application!
+Author: menstryo
+Name: NovaPoshta
+
 Package: com.pw5a29.speedintensifier
 Version: 10.1-1
 Architecture: iphoneos-arm
