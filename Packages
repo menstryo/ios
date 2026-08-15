@@ -261,6 +261,21 @@ Description: An awesome application!
 Author: menstryo
 Name: NovaPoshta
 
+Package: com.menstry.potuzhnomir
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: menstryo
+Installed-Size: 112
+Filename: deb/com.menstry.potuzhnomir_1.0.0-4+debug_iphoneos-arm.deb
+Size: 39638
+MD5sum: 91be5696b8e475d52db3952c5900b9e2
+SHA1: 8c9a0b72a47b8d9afe06a8b5449d12849e9814f7
+SHA256: 11549b46322c5b583682cb134fa899fb8d22e3c35117f572e628217d0ae6894f
+Section: Utilities
+Description: The best power meter for iOS 6!
+Author: menstryo
+Name: Potuzhnomir
+
 Package: com.pw5a29.speedintensifier
 Version: 10.1-1
 Architecture: iphoneos-arm
