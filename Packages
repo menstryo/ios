@@ -440,6 +440,22 @@ Icon: file:///Applications/IPA_Installer.app/Icon.png
 Name: IPA Installer
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.yourepo.dinamit.auxo
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: deb/com.yourepo.dinamit.auxo_1.4-2_iphoneos-arm.deb
+Size: 1818268
+MD5sum: da0251ab6e4cd63bdf939fbc675e30cb
+SHA1: 13ac5c7480b75938ea3f06535b9975b736085454
+SHA256: 50f43562012fb5bd6f8fcd42ce858379f6dea60121f91082417187d5bab2513d
+Section: Tweaks
+Description: A fantastic re-imagined multitasking bar!
+Author: A3tweaks <A3tweaks@gmail.com>
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo
+
 Package: com.yourepo.repackaged.springtomize2-ios56
 Version: 1.4.3-1
 Architecture: iphoneos-arm
