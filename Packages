@@ -77,6 +77,22 @@ Icon: file:///Library/QuickDo/Actions/com.clezz.powerdown/Icon@2x.png
 Name: PowerDown
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.hackyouriphone.subtlelock
+Version: 2.2-1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist (>= 1.4.3)
+Filename: deb/com.hackyouriphone.subtlelock_2.2-1_iphoneos-arm.deb
+Size: 43846
+MD5sum: 9c4bcba0a567cd89d5d2dc8a3c9d06cc
+SHA1: 2255118272801ae20df6a5fac30821878768c37a
+SHA256: ee68fb688da0035f30028e9fe15e292748eb5b736b32cb2ae22e6658c53f2fb5
+Section: HYI - Tweaks
+Description: sleek redesigned lockscreen UI space
+Author: Michael Poole <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=subtlelock
+Name: SubtleLock
+
 Package: com.imalc.insomnia
 Version: 6.0.1
 Architecture: iphoneos-arm
@@ -725,6 +741,27 @@ Dev: philippemail1
 Icon: file:///Library/PreferenceLoader/Preferences/bncb/bncb@2x.png
 Name: BlurriedNCBackground
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.emblem
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 296
+Depends: firmware(>= 5.0), mobilesubstrate, gsc.ipad
+Filename: deb/org.thebigboss.emblem_1.2-1_iphoneos-arm.deb
+Size: 197134
+MD5sum: e90c7131ed9a72f4a9f2ac33430fd086
+SHA1: dd80a400a4f7a7bd93b0b7c8fdae52a2bebc10c4
+SHA256: c41fae0ab25bd4344f1a9f832cbe0c10b5d4e98e6d503f826745158ed57832d6
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=emblemDp
+Description: Notifications reimagined.
+Tag: cydia::commercial, purpose::extension
+Author: Kyle Howells & Joshua Tucker <freerunnering@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=emblemDp
+Dev: emblem
+Icon: file:///Applications/Emblem.app/icon@2x.png
+Name: Emblem
 
 Package: org.thebigboss.moresiri
 Version: 1.0-5
